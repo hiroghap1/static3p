@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>いくらに見えますか</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+            }
+        }
+    </script>
+    <script src="assets/js/main.js" type="module" defer></script>
 </head>
 <body>
-    
+    <header class="header">
+        <ul>
+            <li><a href="#">トップ</a></li>
+            <li><a href="#">鮭と鱒の違い</a></li>
+            <li><a href="#">ふるさと納税について</a></li>
+        </ul>
+    </header>
+    <main class="main">
+        <canvas id="ikura-canvas"></canvas>
+        <h1 class="title">北海道からの贈り物</h1>
+        <img class="mainvisual" src="assets/images/mv.jpg" alt="" width="1920" height="1527">
+    </main>
+    <footer class="footer">
+        <p>© 2025 Static 3P Website</p></footer>
 </body>
 </html>
